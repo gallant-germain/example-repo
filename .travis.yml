@@ -1,0 +1,8 @@
+language: sh
+
+branches:
+  only:
+    - master
+
+script:
+  - echo "hello world!"
