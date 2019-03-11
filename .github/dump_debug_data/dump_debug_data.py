@@ -46,4 +46,4 @@ if __name__ == '__main__':
 
     pull_request = check_run["pull_requests"][0]
     merge_url = pull_request["url"] + "/merge"
-    sess.put(merge_url)
+    # sess.put(merge_url)
